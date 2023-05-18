@@ -1,0 +1,1014 @@
+[
+    {
+        "id": "3761cf96f9abfbef",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "40d3e937c7db6714",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "34.126.157.245",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c76eabd9930e1c87",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "34.126.157.245",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "29046bb57cb692b1",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "01496ce32e458a8b",
+        "type": "ui_group",
+        "name": "Chart",
+        "tab": "a2022adf864c0689",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": "chart-box"
+    },
+    {
+        "id": "a2022adf864c0689",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "72f6fa4cd3d5fd7f",
+        "type": "ui_tab",
+        "name": "test",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "524cb3d5df75b16a",
+        "type": "ui_group",
+        "name": "Card",
+        "tab": "a2022adf864c0689",
+        "order": 6,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a8dc17ded242ef65",
+        "type": "ui_group",
+        "name": "Last checkout",
+        "tab": "a2022adf864c0689",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c509f936f46e2c5d",
+        "type": "mqtt in",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "topic": "Temperature",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "c76eabd9930e1c87",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 760,
+        "wires": [
+            [
+                "93e55bbd961d0248",
+                "1860cb4809da4398",
+                "855c353a764289d6"
+            ]
+        ]
+    },
+    {
+        "id": "f6be841722507c7e",
+        "type": "mqtt out",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "topic": "WaterAmount",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "c76eabd9930e1c87",
+        "x": 1140,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "96f5428da27001be",
+        "type": "mqtt in",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "topic": "Humidity",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "c76eabd9930e1c87",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 600,
+        "wires": [
+            [
+                "1adb4edc0ae5715b",
+                "df377a2699c1ed5f",
+                "72b7e09b7503e0dc"
+            ]
+        ]
+    },
+    {
+        "id": "77c2ccdff70ddbf5",
+        "type": "mqtt in",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "topic": "RFID",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "c76eabd9930e1c87",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 420,
+        "wires": [
+            [
+                "366ea2a5900ffeb9",
+                "21c60561f841c450",
+                "c9bcf00645c15e28",
+                "126598f0123af735"
+            ]
+        ]
+    },
+    {
+        "id": "179f685d7bdddecf",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "cal_water_amount",
+        "func": "msg.payload = global.get(\"duration\")\nif(msg.payload == 0) {\n    msg.payload = \"Check in!!\"\n}\nglobal.set(\"duration\",0)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 380,
+        "wires": [
+            [
+                "f6be841722507c7e",
+                "e06d67aaf378e7f6"
+            ]
+        ]
+    },
+    {
+        "id": "366ea2a5900ffeb9",
+        "type": "ui_text",
+        "z": "3761cf96f9abfbef",
+        "group": "524cb3d5df75b16a",
+        "order": 0,
+        "width": "3",
+        "height": "3",
+        "name": "",
+        "label": "RFID",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 530,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "1adb4edc0ae5715b",
+        "type": "ui_text",
+        "z": "3761cf96f9abfbef",
+        "group": "524cb3d5df75b16a",
+        "order": 1,
+        "width": "3",
+        "height": "3",
+        "name": "",
+        "label": "Humidity",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 540,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "93e55bbd961d0248",
+        "type": "ui_text",
+        "z": "3761cf96f9abfbef",
+        "group": "524cb3d5df75b16a",
+        "order": 2,
+        "width": "3",
+        "height": "3",
+        "name": "",
+        "label": "Temperature",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 550,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "e06d67aaf378e7f6",
+        "type": "ui_text",
+        "z": "3761cf96f9abfbef",
+        "group": "a8dc17ded242ef65",
+        "order": 1,
+        "width": "12",
+        "height": "2",
+        "name": "",
+        "label": "WaterAmount",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1140,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "df377a2699c1ed5f",
+        "type": "ui_chart",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "group": "01496ce32e458a8b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "History of Humidity",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "3",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 570,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1860cb4809da4398",
+        "type": "ui_chart",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "group": "01496ce32e458a8b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "History of Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "3",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 580,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ec76bd9440ca74d",
+        "type": "ui_template",
+        "z": "3761cf96f9abfbef",
+        "group": "",
+        "name": "CSS",
+        "order": 1,
+        "width": "1",
+        "height": "1",
+        "format": "<style>\n.nr-dashboard-cardcontainer > .visible {\n    opacity: 1;\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n    background-color: rgb(99 99 99 / 0%);\n    border-radius: 20px;\n}\nbody.md-default-theme, body, html.md-default-theme, html {\n    /* background-color: rgb(250,250,250); */\n    color: rgba(0,0,0,0.87);\n}\n.masonry-container > .visible {\n    opacity: 1; \n    background-color: rgba(0,0,0,0);\n    border: none;\n}\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 1010,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7719d18c7125c72",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "extract_value",
+        "func": "var obj = JSON.parse(msg.payload);\n\nmsg.payload = global.get(\"id\")\n// check in\nif(msg.payload in obj && obj[msg.payload][\"last_checkin\"] == -1){\n    var d = new Date()\n    obj[msg.payload][\"last_checkin\"] = d.getTime()\n} else if (msg.payload in obj){ // check out\n    var d = new Date()\n    var duration = d.getTime() - obj[msg.payload][\"last_checkin\"]\n    obj[msg.payload][\"last_checkin\"] = -1\n    global.set(\"duration\",duration/1000) //sec\n    global.set(\"is_checkout\",true)\n}\n\nmsg.payload = JSON.stringify(obj)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 240,
+        "wires": [
+            [
+                "65c5e2e30f8ae6af"
+            ]
+        ]
+    },
+    {
+        "id": "eb1ee620c15c6a5d",
+        "type": "ui_text",
+        "z": "3761cf96f9abfbef",
+        "group": "a8dc17ded242ef65",
+        "order": 2,
+        "width": "12",
+        "height": "2",
+        "name": "",
+        "label": "Id",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1250,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "abddd9532ad87264",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "get id",
+        "func": "var ret = global.get(\"id\")\nmsg.payload = ret\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 40,
+        "wires": [
+            [
+                "eb1ee620c15c6a5d"
+            ]
+        ]
+    },
+    {
+        "id": "72fb24ffcde2f031",
+        "type": "ui_text",
+        "z": "3761cf96f9abfbef",
+        "group": "a8dc17ded242ef65",
+        "order": 4,
+        "width": "12",
+        "height": "2",
+        "name": "",
+        "label": "Surname",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1260,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "0f642b77828a6bf9",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "get surname",
+        "func": "var ret = global.get(\"surname\")\nmsg.payload = ret\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 120,
+        "wires": [
+            [
+                "72fb24ffcde2f031"
+            ]
+        ]
+    },
+    {
+        "id": "dd5794b17a404469",
+        "type": "ui_text",
+        "z": "3761cf96f9abfbef",
+        "group": "a8dc17ded242ef65",
+        "order": 5,
+        "width": "12",
+        "height": "2",
+        "name": "",
+        "label": "Age",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1250,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8db8d52c71c50f30",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "get age",
+        "func": "var ret = global.get(\"age\")\nmsg.payload = ret\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 160,
+        "wires": [
+            [
+                "dd5794b17a404469"
+            ]
+        ]
+    },
+    {
+        "id": "c4a6d5793aeb1a26",
+        "type": "ui_text",
+        "z": "3761cf96f9abfbef",
+        "group": "a8dc17ded242ef65",
+        "order": 6,
+        "width": "12",
+        "height": "2",
+        "name": "",
+        "label": "Heigh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1250,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "77125fb60137d49f",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "get heigh",
+        "func": "var ret = global.get(\"heigh\")\nmsg.payload = ret\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 200,
+        "wires": [
+            [
+                "c4a6d5793aeb1a26"
+            ]
+        ]
+    },
+    {
+        "id": "4891a89535d6c975",
+        "type": "ui_text",
+        "z": "3761cf96f9abfbef",
+        "group": "a8dc17ded242ef65",
+        "order": 7,
+        "width": "12",
+        "height": "2",
+        "name": "",
+        "label": "Weight",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1250,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "d51c23c1857f4b16",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "get weight",
+        "func": "var ret = global.get(\"weight\")\nmsg.payload = ret\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 240,
+        "wires": [
+            [
+                "4891a89535d6c975"
+            ]
+        ]
+    },
+    {
+        "id": "8a60c8cd232614e0",
+        "type": "ui_text",
+        "z": "3761cf96f9abfbef",
+        "group": "a8dc17ded242ef65",
+        "order": 3,
+        "width": "12",
+        "height": "2",
+        "name": "",
+        "label": "Name",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1250,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "25c8576acbedfac3",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "get name",
+        "func": "var ret = global.get(\"name\")\nmsg.payload = ret\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 80,
+        "wires": [
+            [
+                "8a60c8cd232614e0"
+            ]
+        ]
+    },
+    {
+        "id": "65c5e2e30f8ae6af",
+        "type": "file",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "filename": "data",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 870,
+        "y": 240,
+        "wires": [
+            [
+                "ae1b39805f0dc181"
+            ]
+        ]
+    },
+    {
+        "id": "ae1b39805f0dc181",
+        "type": "file in",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "filename": "data",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 710,
+        "y": 300,
+        "wires": [
+            [
+                "09464c0374d84762",
+                "19c0d7919693ae94"
+            ]
+        ]
+    },
+    {
+        "id": "09464c0374d84762",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "get value",
+        "func": "var obj = JSON.parse(msg.payload);\nvar id = global.get(\"id\")\n\nif (id in obj) {\n    global.set(\"name\", obj[id][\"name\"])\n    global.set(\"surname\", obj[id][\"surname\"])\n    global.set(\"age\", obj[id][\"age\"])\n    global.set(\"heigh\", obj[id][\"heigh\"])\n    global.set(\"weight\", obj[id][\"weight\"])\n} else {\n    global.set(\"name\", \"-\")\n    global.set(\"surname\", \"-\")\n    global.set(\"age\", \"-\")\n    global.set(\"heigh\", \"-\")\n    global.set(\"weight\", \"-\")\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 300,
+        "wires": [
+            [
+                "abddd9532ad87264",
+                "25c8576acbedfac3",
+                "0f642b77828a6bf9",
+                "8db8d52c71c50f30",
+                "77125fb60137d49f",
+                "d51c23c1857f4b16"
+            ]
+        ]
+    },
+    {
+        "id": "4b59d18080d0b3be",
+        "type": "file in",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "filename": "data",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 590,
+        "y": 240,
+        "wires": [
+            [
+                "c7719d18c7125c72"
+            ]
+        ]
+    },
+    {
+        "id": "21c60561f841c450",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "set id",
+        "func": "global.set(\"id\",msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 240,
+        "wires": [
+            [
+                "4b59d18080d0b3be"
+            ]
+        ]
+    },
+    {
+        "id": "72b7e09b7503e0dc",
+        "type": "debug",
+        "z": "3761cf96f9abfbef",
+        "name": "humidity",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "855c353a764289d6",
+        "type": "debug",
+        "z": "3761cf96f9abfbef",
+        "name": "temperature",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "c9bcf00645c15e28",
+        "type": "debug",
+        "z": "3761cf96f9abfbef",
+        "name": "RFID",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "126598f0123af735",
+        "type": "delay",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 550,
+        "y": 380,
+        "wires": [
+            [
+                "33957ef15163ab3e"
+            ]
+        ]
+    },
+    {
+        "id": "33957ef15163ab3e",
+        "type": "switch",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "property": "is_checkout",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 730,
+        "y": 380,
+        "wires": [
+            [
+                "179f685d7bdddecf"
+            ]
+        ]
+    },
+    {
+        "id": "19c0d7919693ae94",
+        "type": "debug",
+        "z": "3761cf96f9abfbef",
+        "name": "file",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "47d1f55065ef6ae0",
+        "type": "inject",
+        "z": "3761cf96f9abfbef",
+        "name": "button",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 120,
+        "wires": [
+            [
+                "cd5207c08b508645"
+            ]
+        ]
+    },
+    {
+        "id": "cd5207c08b508645",
+        "type": "function",
+        "z": "3761cf96f9abfbef",
+        "name": "set new file",
+        "func": "var obj = {\n    426114122: {\n        \"name\": \"Jirayuwat\",\n        \"surname\": \"Boonchnan\",\n        \"age\": 20,\n        \"heigh\": 170,\n        \"weight\": 78,\n        \"last_checkin\": -1\n    },\n    426114123: {\n        \"name\": \"Krissanapat\",\n        \"surname\": \"Chatwattana\",\n        \"age\": 20,\n        \"heigh\": 182,\n        \"weight\": 59,\n        \"last_checkin\": -1\n    }\n}\nmsg.payload = JSON.stringify(obj)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 120,
+        "wires": [
+            [
+                "9d2d9e07c00e4dbc"
+            ]
+        ]
+    },
+    {
+        "id": "9d2d9e07c00e4dbc",
+        "type": "file",
+        "z": "3761cf96f9abfbef",
+        "name": "",
+        "filename": "data",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 550,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    }
+]
